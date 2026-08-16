@@ -1,0 +1,315 @@
+/* ==========================
+      PALETA DE COLORES
+========================== */
+
+:root{
+
+    --primary:#0F766E;
+    --secondary:#14B8A6;
+    --success:#22C55E;
+    --light:#F8FAFC;
+    --dark:#0F172A;
+    --gray:#64748B;
+    --white:#FFFFFF;
+
+}
+
+/* ==========================
+      GENERAL
+========================== */
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+
+}
+
+body{
+
+    background:var(--light);
+    color:var(--dark);
+
+}
+
+/* ==========================
+      NAVBAR
+========================== */
+
+.navbar{
+
+    background:white !important;
+    padding:18px 0;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.05);
+
+}
+
+.navbar-brand{
+
+    font-size:28px;
+    font-weight:700;
+    color:var(--primary)!important;
+
+}
+
+.nav-link{
+
+    color:var(--dark)!important;
+    font-weight:500;
+    margin-left:20px;
+
+    transition:.3s;
+
+}
+
+.nav-link:hover{
+
+    color:var(--primary)!important;
+
+}
+
+/* ==========================
+      BOTONES
+========================== */
+
+.btn-success{
+
+    background:var(--primary);
+    border:none;
+    border-radius:12px;
+    padding:12px 28px;
+
+}
+
+.btn-success:hover{
+
+    background:var(--secondary);
+
+}
+
+.btn-outline-success{
+
+    border:2px solid var(--primary);
+    color:var(--primary);
+    border-radius:12px;
+    padding:12px 28px;
+
+}
+
+.btn-outline-success:hover{
+
+    background:var(--primary);
+
+}
+
+/* ==========================
+      HERO
+========================== */
+
+.hero{
+
+    padding:120px 0;
+
+}
+
+.hero h1{
+
+    font-size:58px;
+    font-weight:700;
+    line-height:1.2;
+
+}
+
+.hero p{
+
+    font-size:20px;
+    color:var(--gray);
+
+}
+
+.hero img{
+
+    border-radius:25px;
+
+    transition:.5s;
+
+}
+
+.hero img:hover{
+
+    transform:scale(1.03);
+
+}
+
+/* ==========================
+      TARJETAS
+========================== */
+
+.servicio-card{
+
+    border-radius:20px;
+
+    transition:.4s;
+
+}
+
+.servicio-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.08);
+
+}
+
+.servicio-card i{
+
+    font-size:55px;
+
+    color:var(--primary);
+
+}
+/* ==========================
+      HERO NUEVO
+========================== */
+
+.hero{
+
+    padding:120px 0;
+    background:linear-gradient(135deg,#F8FAFC,#E8FFF7);
+
+}
+
+.hero h1{
+
+    font-size:60px;
+    font-weight:700;
+    line-height:1.2;
+    color:var(--dark);
+
+}
+
+.hero p{
+
+    font-size:20px;
+    color:var(--gray);
+
+}
+
+.hero-image{
+
+    width:100%;
+    border-radius:30px;
+
+    box-shadow:0 25px 50px rgba(0,0,0,.15);
+
+    transition:.5s;
+
+}
+
+.hero-image:hover{
+
+    transform:translateY(-10px);
+
+}
+/* ==========================
+        NAVBAR
+========================== */
+.navbar{
+    background:#fff;
+}
+
+.navbar-brand{
+    font-size:1.5rem;
+}
+
+.nav-link{
+    margin-left:15px;
+    font-weight:500;
+}
+
+.nav-link:hover{
+    color:#198754 !important;
+}
+.card{
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card i{
+    margin-bottom:15px;
+}
+/* ==========================
+        LOGO
+========================== */
+
+.logo{
+
+    width:45px;
+
+    height:45px;
+
+    object-fit:contain;
+
+}
+
+.navbar-brand span{
+
+    font-size:28px;
+
+}
+body{
+    padding-top:80px;
+}
+.card-img-top{
+
+    height:220px;
+
+    object-fit:cover;
+
+    border-top-left-radius:15px;
+
+    border-top-right-radius:15px;
+
+}
+
+.card{
+
+    overflow:hidden;
+
+}
+/* ==========================
+      REGISTRO
+========================== */
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+}
+
+.card{
+
+    border-radius:20px;
+
+}
+
+.form-control{
+
+    border-radius:10px;
+
+    padding:12px;
+
+}
+
+.btn-success{
+
+    border-radius:10px;
+
+}
